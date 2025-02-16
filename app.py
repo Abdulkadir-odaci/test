@@ -69,3 +69,14 @@ if uploaded_file is not None:
 with st.sidebar:
     st.title("Navigation")
     show_contact = st.button("Show Contact Details", type='primary')
+
+    if show_contact:
+        st.sidebar.header("Contact Information")
+        st.sidebar.markdown("""
+        - **Email:** abdulkadirodaci@gmail.com
+        
+        ### Social Media
+        - LinkedIn: www.linkedin.com/in/abdülkadir-odaci
+
+        """)
+        
