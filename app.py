@@ -65,3 +65,7 @@ if uploaded_file is not None:
             # Show column names
             st.subheader("Column Names")
             st.write(", ".join(df.columns))
+#sidebaar
+with st.sidebar:
+    st.title("Navigation")
+    show_contact = st.button("Show Contact Details", type='primary')
